@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5F6B151CA94D890080B4C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B141CA94D890080B4C6 /* main.m */; };
+		CF5F6B181CA94D890080B4C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B171CA94D890080B4C6 /* AppDelegate.m */; };
+		CF5F6B1B1CA94D890080B4C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B1A1CA94D890080B4C6 /* ViewController.m */; };
+		CF5F6B1E1CA94D890080B4C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5F6B1C1CA94D890080B4C6 /* Main.storyboard */; };
+		CF5F6B211CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B1F1CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodeld */; };
+		CF5F6B231CA94D890080B4C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5F6B221CA94D890080B4C6 /* Assets.xcassets */; };
+		CF5F6B261CA94D890080B4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5F6B241CA94D890080B4C6 /* LaunchScreen.storyboard */; };
+		CF5F6B311CA94D8A0080B4C6 /* Demo4_JS_TrainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B301CA94D8A0080B4C6 /* Demo4_JS_TrainTests.m */; };
+		CF5F6B3C1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B3B1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.m */; };
+		CF5F6B4B1CA94E4C0080B4C6 /* JSTrainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B4A1CA94E4C0080B4C6 /* JSTrainTableViewController.m */; };
+		CF5F6B511CA94FF00080B4C6 /* JSTrainJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B501CA94FF00080B4C6 /* JSTrainJsonParser.m */; };
+		CF5F6B541CA950640080B4C6 /* JSTrain.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5F6B531CA950640080B4C6 /* JSTrain.m */; };
+		CFC075631CAAAEA7001D461C /* PriceList.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC075621CAAAEA7001D461C /* PriceList.m */; };
+		CFC075661CAAB7D1001D461C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC075651CAAB7D1001D461C /* DetailViewController.m */; };
+		CFC075691CAABB41001D461C /* JSTrainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC075681CAABB41001D461C /* JSTrainTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF5F6B2D1CA94D8A0080B4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5F6B081CA94D890080B4C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5F6B0F1CA94D890080B4C6;
+			remoteInfo = Demo4_JS_Train;
+		};
+		CF5F6B381CA94D8A0080B4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5F6B081CA94D890080B4C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5F6B0F1CA94D890080B4C6;
+			remoteInfo = Demo4_JS_Train;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF5F6B101CA94D890080B4C6 /* Demo4_JS_Train.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo4_JS_Train.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5F6B141CA94D890080B4C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF5F6B161CA94D890080B4C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF5F6B171CA94D890080B4C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF5F6B191CA94D890080B4C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF5F6B1A1CA94D890080B4C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF5F6B1D1CA94D890080B4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF5F6B201CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo4_JS_Train.xcdatamodel; sourceTree = "<group>"; };
+		CF5F6B221CA94D890080B4C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5F6B251CA94D890080B4C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF5F6B271CA94D890080B4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5F6B2C1CA94D8A0080B4C6 /* Demo4_JS_TrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_JS_TrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5F6B301CA94D8A0080B4C6 /* Demo4_JS_TrainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_JS_TrainTests.m; sourceTree = "<group>"; };
+		CF5F6B321CA94D8A0080B4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5F6B371CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_JS_TrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5F6B3B1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_JS_TrainUITests.m; sourceTree = "<group>"; };
+		CF5F6B3D1CA94D8A0080B4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5F6B491CA94E4C0080B4C6 /* JSTrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTrainTableViewController.h; sourceTree = "<group>"; };
+		CF5F6B4A1CA94E4C0080B4C6 /* JSTrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTrainTableViewController.m; sourceTree = "<group>"; };
+		CF5F6B4F1CA94FF00080B4C6 /* JSTrainJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTrainJsonParser.h; sourceTree = "<group>"; };
+		CF5F6B501CA94FF00080B4C6 /* JSTrainJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTrainJsonParser.m; sourceTree = "<group>"; };
+		CF5F6B521CA950640080B4C6 /* JSTrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTrain.h; sourceTree = "<group>"; };
+		CF5F6B531CA950640080B4C6 /* JSTrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTrain.m; sourceTree = "<group>"; };
+		CFC075611CAAAEA7001D461C /* PriceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceList.h; sourceTree = "<group>"; };
+		CFC075621CAAAEA7001D461C /* PriceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceList.m; sourceTree = "<group>"; };
+		CFC075641CAAB7D1001D461C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CFC075651CAAB7D1001D461C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CFC075671CAABB41001D461C /* JSTrainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTrainTableViewCell.h; sourceTree = "<group>"; };
+		CFC075681CAABB41001D461C /* JSTrainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTrainTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5F6B0D1CA94D890080B4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F6B291CA94D8A0080B4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F6B341CA94D8A0080B4C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5F6B071CA94D890080B4C6 = {
+			isa = PBXGroup;
+			children = (
+				CF5F6B121CA94D890080B4C6 /* Demo4_JS_Train */,
+				CF5F6B2F1CA94D8A0080B4C6 /* Demo4_JS_TrainTests */,
+				CF5F6B3A1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests */,
+				CF5F6B111CA94D890080B4C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5F6B111CA94D890080B4C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F6B101CA94D890080B4C6 /* Demo4_JS_Train.app */,
+				CF5F6B2C1CA94D8A0080B4C6 /* Demo4_JS_TrainTests.xctest */,
+				CF5F6B371CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5F6B121CA94D890080B4C6 /* Demo4_JS_Train */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F6B161CA94D890080B4C6 /* AppDelegate.h */,
+				CF5F6B171CA94D890080B4C6 /* AppDelegate.m */,
+				CF5F6B191CA94D890080B4C6 /* ViewController.h */,
+				CF5F6B1A1CA94D890080B4C6 /* ViewController.m */,
+				CF5F6B491CA94E4C0080B4C6 /* JSTrainTableViewController.h */,
+				CF5F6B4A1CA94E4C0080B4C6 /* JSTrainTableViewController.m */,
+				CFC075671CAABB41001D461C /* JSTrainTableViewCell.h */,
+				CFC075681CAABB41001D461C /* JSTrainTableViewCell.m */,
+				CFC075641CAAB7D1001D461C /* DetailViewController.h */,
+				CFC075651CAAB7D1001D461C /* DetailViewController.m */,
+				CF5F6B1C1CA94D890080B4C6 /* Main.storyboard */,
+				CF5F6B221CA94D890080B4C6 /* Assets.xcassets */,
+				CF5F6B241CA94D890080B4C6 /* LaunchScreen.storyboard */,
+				CF5F6B271CA94D890080B4C6 /* Info.plist */,
+				CF5F6B1F1CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodeld */,
+				CF5F6B131CA94D890080B4C6 /* Supporting Files */,
+				CF5F6B521CA950640080B4C6 /* JSTrain.h */,
+				CF5F6B531CA950640080B4C6 /* JSTrain.m */,
+				CFC075611CAAAEA7001D461C /* PriceList.h */,
+				CFC075621CAAAEA7001D461C /* PriceList.m */,
+			);
+			path = Demo4_JS_Train;
+			sourceTree = "<group>";
+		};
+		CF5F6B131CA94D890080B4C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F6B4F1CA94FF00080B4C6 /* JSTrainJsonParser.h */,
+				CF5F6B501CA94FF00080B4C6 /* JSTrainJsonParser.m */,
+				CF5F6B141CA94D890080B4C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF5F6B2F1CA94D8A0080B4C6 /* Demo4_JS_TrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F6B301CA94D8A0080B4C6 /* Demo4_JS_TrainTests.m */,
+				CF5F6B321CA94D8A0080B4C6 /* Info.plist */,
+			);
+			path = Demo4_JS_TrainTests;
+			sourceTree = "<group>";
+		};
+		CF5F6B3A1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F6B3B1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.m */,
+				CF5F6B3D1CA94D8A0080B4C6 /* Info.plist */,
+			);
+			path = Demo4_JS_TrainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5F6B0F1CA94D890080B4C6 /* Demo4_JS_Train */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5F6B401CA94D8A0080B4C6 /* Build configuration list for PBXNativeTarget "Demo4_JS_Train" */;
+			buildPhases = (
+				CF5F6B0C1CA94D890080B4C6 /* Sources */,
+				CF5F6B0D1CA94D890080B4C6 /* Frameworks */,
+				CF5F6B0E1CA94D890080B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo4_JS_Train;
+			productName = Demo4_JS_Train;
+			productReference = CF5F6B101CA94D890080B4C6 /* Demo4_JS_Train.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF5F6B2B1CA94D8A0080B4C6 /* Demo4_JS_TrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5F6B431CA94D8A0080B4C6 /* Build configuration list for PBXNativeTarget "Demo4_JS_TrainTests" */;
+			buildPhases = (
+				CF5F6B281CA94D8A0080B4C6 /* Sources */,
+				CF5F6B291CA94D8A0080B4C6 /* Frameworks */,
+				CF5F6B2A1CA94D8A0080B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5F6B2E1CA94D8A0080B4C6 /* PBXTargetDependency */,
+			);
+			name = Demo4_JS_TrainTests;
+			productName = Demo4_JS_TrainTests;
+			productReference = CF5F6B2C1CA94D8A0080B4C6 /* Demo4_JS_TrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF5F6B361CA94D8A0080B4C6 /* Demo4_JS_TrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5F6B461CA94D8A0080B4C6 /* Build configuration list for PBXNativeTarget "Demo4_JS_TrainUITests" */;
+			buildPhases = (
+				CF5F6B331CA94D8A0080B4C6 /* Sources */,
+				CF5F6B341CA94D8A0080B4C6 /* Frameworks */,
+				CF5F6B351CA94D8A0080B4C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5F6B391CA94D8A0080B4C6 /* PBXTargetDependency */,
+			);
+			name = Demo4_JS_TrainUITests;
+			productName = Demo4_JS_TrainUITests;
+			productReference = CF5F6B371CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5F6B081CA94D890080B4C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF5F6B0F1CA94D890080B4C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF5F6B2B1CA94D8A0080B4C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF5F6B0F1CA94D890080B4C6;
+					};
+					CF5F6B361CA94D8A0080B4C6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF5F6B0F1CA94D890080B4C6;
+					};
+				};
+			};
+			buildConfigurationList = CF5F6B0B1CA94D890080B4C6 /* Build configuration list for PBXProject "Demo4_JS_Train" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5F6B071CA94D890080B4C6;
+			productRefGroup = CF5F6B111CA94D890080B4C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5F6B0F1CA94D890080B4C6 /* Demo4_JS_Train */,
+				CF5F6B2B1CA94D8A0080B4C6 /* Demo4_JS_TrainTests */,
+				CF5F6B361CA94D8A0080B4C6 /* Demo4_JS_TrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5F6B0E1CA94D890080B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F6B261CA94D890080B4C6 /* LaunchScreen.storyboard in Resources */,
+				CF5F6B231CA94D890080B4C6 /* Assets.xcassets in Resources */,
+				CF5F6B1E1CA94D890080B4C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F6B2A1CA94D8A0080B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F6B351CA94D8A0080B4C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5F6B0C1CA94D890080B4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F6B1B1CA94D890080B4C6 /* ViewController.m in Sources */,
+				CF5F6B211CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodeld in Sources */,
+				CF5F6B181CA94D890080B4C6 /* AppDelegate.m in Sources */,
+				CF5F6B511CA94FF00080B4C6 /* JSTrainJsonParser.m in Sources */,
+				CF5F6B151CA94D890080B4C6 /* main.m in Sources */,
+				CFC075661CAAB7D1001D461C /* DetailViewController.m in Sources */,
+				CFC075631CAAAEA7001D461C /* PriceList.m in Sources */,
+				CF5F6B4B1CA94E4C0080B4C6 /* JSTrainTableViewController.m in Sources */,
+				CF5F6B541CA950640080B4C6 /* JSTrain.m in Sources */,
+				CFC075691CAABB41001D461C /* JSTrainTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F6B281CA94D8A0080B4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F6B311CA94D8A0080B4C6 /* Demo4_JS_TrainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5F6B331CA94D8A0080B4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5F6B3C1CA94D8A0080B4C6 /* Demo4_JS_TrainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF5F6B2E1CA94D8A0080B4C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5F6B0F1CA94D890080B4C6 /* Demo4_JS_Train */;
+			targetProxy = CF5F6B2D1CA94D8A0080B4C6 /* PBXContainerItemProxy */;
+		};
+		CF5F6B391CA94D8A0080B4C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5F6B0F1CA94D890080B4C6 /* Demo4_JS_Train */;
+			targetProxy = CF5F6B381CA94D8A0080B4C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF5F6B1C1CA94D890080B4C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5F6B1D1CA94D890080B4C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF5F6B241CA94D890080B4C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5F6B251CA94D890080B4C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF5F6B3E1CA94D8A0080B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF5F6B3F1CA94D8A0080B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5F6B411CA94D8A0080B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo4_JS_Train/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-Train";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF5F6B421CA94D8A0080B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo4_JS_Train/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-Train";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF5F6B441CA94D8A0080B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo4_JS_TrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-TrainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_JS_Train.app/Demo4_JS_Train";
+			};
+			name = Debug;
+		};
+		CF5F6B451CA94D8A0080B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo4_JS_TrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-TrainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_JS_Train.app/Demo4_JS_Train";
+			};
+			name = Release;
+		};
+		CF5F6B471CA94D8A0080B4C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo4_JS_TrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-TrainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo4_JS_Train;
+			};
+			name = Debug;
+		};
+		CF5F6B481CA94D8A0080B4C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo4_JS_TrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-TrainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo4_JS_Train;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5F6B0B1CA94D890080B4C6 /* Build configuration list for PBXProject "Demo4_JS_Train" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5F6B3E1CA94D8A0080B4C6 /* Debug */,
+				CF5F6B3F1CA94D8A0080B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5F6B401CA94D8A0080B4C6 /* Build configuration list for PBXNativeTarget "Demo4_JS_Train" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5F6B411CA94D8A0080B4C6 /* Debug */,
+				CF5F6B421CA94D8A0080B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5F6B431CA94D8A0080B4C6 /* Build configuration list for PBXNativeTarget "Demo4_JS_TrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5F6B441CA94D8A0080B4C6 /* Debug */,
+				CF5F6B451CA94D8A0080B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5F6B461CA94D8A0080B4C6 /* Build configuration list for PBXNativeTarget "Demo4_JS_TrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5F6B471CA94D8A0080B4C6 /* Debug */,
+				CF5F6B481CA94D8A0080B4C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF5F6B1F1CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF5F6B201CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodel */,
+			);
+			currentVersion = CF5F6B201CA94D890080B4C6 /* Demo4_JS_Train.xcdatamodel */;
+			path = Demo4_JS_Train.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF5F6B081CA94D890080B4C6 /* Project object */;
+}
